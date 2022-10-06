@@ -48,4 +48,5 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: app/build/outputs/apk/release/app-release-unsigned.apk
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          files: app/build/outputs/apk/release/app-release-unsigned-signed.apk
