@@ -36,10 +36,6 @@ jobs:
         env:
           BUILD_TOOLS_VERSION: 33.0.0
 
-      - uses: actions/upload-artifact@v3
-        with:
-          path: app/build/outputs/apk/release/
-
       - name: Generate release tag
         id: tag
         run: |
