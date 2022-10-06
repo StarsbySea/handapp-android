@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.BaselineLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:descendantFocusability="blocksDescendants"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/TotalName"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageButton5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#00000000"
+
+
+
+
+            app:srcCompat="@drawable/ic_arrow_right" />
+    </LinearLayout>
+
+</com.google.android.material.internal.BaselineLayout>

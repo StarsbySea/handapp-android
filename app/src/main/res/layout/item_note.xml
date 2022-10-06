@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="105dp"
+            android:layout_height="89dp"
+            android:background="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewNoteText"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Note Text"
+            android:paddingStart="6dp"/>
+
+            <TextView
+                android:id="@+id/textViewNoteComment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:paddingStart="6dp"
+                tools:text="（一）手指字母“H”的指式。（二）一手手背贴于颏下，并作发音状。这是聋哑学校口语教学的特征。（三）左手食、中指向上伸开，右手拇、食指把左手食、中指指尖捏合在一起。" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

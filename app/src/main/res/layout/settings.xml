@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/h_back"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <ImageView
+            android:id="@+id/h_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <com.example.text1.ItemView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_contact_us"
+        app:left_text="联系我们"
+        app:right_text="@string/phone_number" />
+
+    <com.example.text1.ItemView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_reset_passwd"
+        app:left_text="修改密码"
+        app:right_text="" />
+
+    <com.example.text1.ItemView
+        android:id="@+id/nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:foregroundTint="@color/gray"
+        app:left_icon="@drawable/ic_logout"
+        app:left_text="退出登录"
+        app:right_text="" />
+
+
+    <!--    <com.example.text1.ItemView
+            android:id="@+id/signName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:left_icon="@drawable/ic_sign_name"
+            app:left_text="我们的标语"
+            app:right_text="风一样的男子" />-->
+
+
+    <com.example.text1.ItemView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_info"
+        app:left_text="应用介绍"
+        app:right_text="" />
+
+    <com.example.text1.ItemView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_version"
+        app:left_text="版本"
+        app:right_text="1.0版本" />
+
+</LinearLayout>
