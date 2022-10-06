@@ -23,8 +23,6 @@ jobs:
       - uses: gradle/gradle-build-action@v2
       - run: gradle assembleRelease
 
-
-
       - uses: r0adkll/sign-android-release@v1
         name: Sign app APK
         # ID used to access action output
@@ -40,8 +38,12 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: unsigned apks
           path: app/build/outputs/apk/release/
+
+      - name: Generate release tag
+        id: tag
+        run: |
+          echo "::set-output name=release_tag::UserBuild_$(date +"%Y.%m.%d_%H-%M")"
 
       - name: Release
         uses: softprops/action-gh-release@v1
