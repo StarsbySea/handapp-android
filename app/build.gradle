@@ -61,7 +61,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.14.1'
 
 
-    implementation 'jp.wasabeef:glide-transformations:latest.release'
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
     implementation 'com.blankj:utilcode:latest.release'
 
     // https://mvnrepository.com/artifact/com.github.houbb/segment
