@@ -62,7 +62,7 @@ dependencies {
 
 
     implementation 'jp.wasabeef:glide-transformations:4.3.0'
-    implementation 'com.blankj:utilcode:latest.release'
+    implementation 'com.blankj:utilcode:1.30.7'
 
     // https://mvnrepository.com/artifact/com.github.houbb/segment
     implementation group: 'com.github.houbb', name: 'segment', version: '0.1.8'
