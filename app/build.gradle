@@ -47,7 +47,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
     //网络请求的架包
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
-    implementation 'com.squareup.okio:okio:3.11.0'
+    implementation 'com.squareup.okio:okio:3.12.0'
     testImplementation 'junit:junit:'
     androidTestImplementation 'androidx.test.ext:junit:4.13.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
